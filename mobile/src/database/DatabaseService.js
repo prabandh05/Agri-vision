@@ -3,7 +3,7 @@
  * Handles copying the bundled SQLite DB to device storage and running FTS5 queries.
  * Works fully offline — no network calls.
  */
-import * as FileSystem from 'expo-file-system';
+import * as FileSystem from 'expo-file-system/legacy';
 import * as SQLite from 'expo-sqlite';
 import { Asset } from 'expo-asset';
 
@@ -12,35 +12,42 @@ const DB_DIR  = FileSystem.documentDirectory + 'SQLite/';
 const DB_PATH = DB_DIR + DB_NAME;
 
 let _db = null;
+let _initPromise = null;
 
 // ─── Initialization ──────────────────────────────────────────────────────────
 
 export async function initDatabase() {
   if (_db) return _db;
+  if (_initPromise) return _initPromise;
 
-  // Ensure SQLite directory exists
-  const dirInfo = await FileSystem.getInfoAsync(DB_DIR);
-  if (!dirInfo.exists) {
-    await FileSystem.makeDirectoryAsync(DB_DIR, { intermediates: true });
-  }
+  _initPromise = (async () => {
+    // Ensure SQLite directory exists
+    const dirInfo = await FileSystem.getInfoAsync(DB_DIR);
+    if (!dirInfo.exists) {
+      await FileSystem.makeDirectoryAsync(DB_DIR, { intermediates: true });
+    }
 
-  // Check if DB already copied to device
-  const dbInfo = await FileSystem.getInfoAsync(DB_PATH);
-  if (!dbInfo.exists) {
-    // Load from bundled asset
-    const asset = Asset.fromModule(require('../../assets/db/mandya_agri.db'));
-    await asset.downloadAsync();
-    await FileSystem.copyAsync({
-      from: asset.localUri,
-      to:   DB_PATH,
-    });
-    console.log('✅ AgriVision DB copied to device storage');
-  }
+    // Check if DB already copied to device
+    const dbInfo = await FileSystem.getInfoAsync(DB_PATH);
+    if (!dbInfo.exists) {
+      // Load from bundled asset
+      const asset = Asset.fromModule(require('../../assets/db/mandya_agri.db'));
+      await asset.downloadAsync();
+      await FileSystem.copyAsync({
+        from: asset.localUri,
+        to:   DB_PATH,
+      });
+      console.log('✅ AgriVision DB copied to device storage');
+    }
 
-  // Open database — expo-sqlite v55: pass just the name, it auto-resolves to documentDirectory/SQLite/
-  _db = await SQLite.openDatabaseAsync(DB_NAME);
-  console.log('✅ AgriVision DB opened');
-  return _db;
+    // Open database
+    _db = await SQLite.openDatabaseAsync(DB_NAME);
+    console.log('✅ AgriVision DB opened');
+    _initPromise = null;
+    return _db;
+  })();
+
+  return _initPromise;
 }
 
 export function getDb() {
