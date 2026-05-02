@@ -1,0 +1,1422 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "region": "Mandya District, Karnataka",
+    "last_updated": "2026-04-25",
+    "total_crops": 10,
+    "total_diseases": 20,
+    "description": "Comprehensive agricultural advisory knowledge base for Mandya district"
+  },
+  "crops": [
+    {
+      "id": "crop_paddy",
+      "name": "Paddy (Rice)",
+      "local_name": "Bhatta / Akki",
+      "category": "cereal",
+      "type": "irrigated",
+      "season": [
+        "Kharif",
+        "Rabi"
+      ],
+      "sowing_months": {
+        "Kharif": "June-July",
+        "Rabi": "November-December"
+      },
+      "harvest_months": {
+        "Kharif": "October-November",
+        "Rabi": "March-April"
+      },
+      "duration_days": "120-150",
+      "water_requirement": "high",
+      "soil_type": "Clay loam, red sandy loam with good water retention",
+      "suitable_taluks": [
+        "Mandya",
+        "Maddur",
+        "Malavalli",
+        "Srirangapatna",
+        "Pandavapura"
+      ],
+      "irrigation_source": "KRS Canal, Hemavathy Canal",
+      "seed_rate_kg_per_acre": "30-40 (transplanting), 80-100 (direct seeding)",
+      "recommended_varieties": [
+        "MTU-1010",
+        "Jaya",
+        "IR-64",
+        "KRH-4 (Hybrid)",
+        "Tanu",
+        "Intan"
+      ],
+      "yield_quintals_per_acre": "20-25",
+      "msp_per_quintal": "₹2,300 (Common), ₹2,320 (Grade A)",
+      "cultivation_practices": [
+        "Nursery: Prepare raised nursery bed 1m wide. Soak seeds for 24hrs, incubate 48hrs. Sow pre-germinated seeds.",
+        "Main field: Puddle field 2-3 times. Level field properly for uniform water distribution.",
+        "Transplanting: Transplant 20-25 day old seedlings, 2-3 seedlings per hill at 20x15cm spacing.",
+        "Water management: Maintain 2-5cm water during vegetative stage. Drain 10 days before harvest.",
+        "Weed management: Apply Pretilachlor 500ml/acre within 3 days of transplanting. Hand weed at 25 and 45 days."
+      ],
+      "fertilizer_schedule": {
+        "basal": "DAP 50kg/acre + MOP 25kg/acre at transplanting",
+        "first_top_dress": "Urea 25kg/acre at 21 days after transplanting (tillering)",
+        "second_top_dress": "Urea 25kg/acre at 42 days (panicle initiation)",
+        "micronutrients": "Zinc Sulphate 10kg/acre as basal in zinc-deficient soils"
+      },
+      "common_diseases": [
+        "blast",
+        "brown_leaf_spot",
+        "sheath_blight",
+        "bacterial_leaf_blight",
+        "sheath_rot"
+      ],
+      "common_pests": [
+        "stem_borer",
+        "leaf_folder",
+        "brown_plant_hopper",
+        "gall_midge"
+      ],
+      "intercropping": "Not common for paddy; can grow green gram/black gram after harvest as relay crop",
+      "organic_practices": "Apply FYM 4 tonnes/acre. Use neem cake 100kg/acre. Jeevamrutha 200L/acre monthly."
+    },
+    {
+      "id": "crop_sugarcane",
+      "name": "Sugarcane",
+      "local_name": "Kabbu",
+      "category": "commercial",
+      "type": "irrigated",
+      "season": [
+        "Year-round (perennial)"
+      ],
+      "sowing_months": {
+        "Plant crop": "January-March",
+        "Ratoon": "After harvest"
+      },
+      "harvest_months": {
+        "Plant crop": "December-March (12 months)",
+        "Ratoon": "11-12 months after ratooning"
+      },
+      "duration_days": "330-365",
+      "water_requirement": "very high",
+      "soil_type": "Deep red sandy loam, well-drained fertile soils",
+      "suitable_taluks": [
+        "Mandya",
+        "Maddur",
+        "Srirangapatna",
+        "Pandavapura"
+      ],
+      "irrigation_source": "KRS Canal, bore wells",
+      "seed_rate_kg_per_acre": "25,000-30,000 three-bud setts",
+      "recommended_varieties": [
+        "Co-86032",
+        "Co-62175",
+        "CoC-671",
+        "Co-0238",
+        "SNK-44"
+      ],
+      "yield_quintals_per_acre": "400-500 (plant crop), 300-400 (ratoon)",
+      "msp_per_quintal": "₹315 (FRP - Fair & Remunerative Price)",
+      "cultivation_practices": [
+        "Land preparation: Deep plough 2-3 times. Form furrows 90cm apart, 20cm deep.",
+        "Planting: Place 3-bud setts end-to-end in furrows. Treat setts with Carbendazim 1g/L for 15 min.",
+        "Earthing up: First at 45 days, second at 90 days, third at 120 days.",
+        "Detrashing: Remove dry leaves at 5th and 7th month to prevent pest harboring.",
+        "Propping: Support tall canes with bamboo at 8-9 months to prevent lodging."
+      ],
+      "fertilizer_schedule": {
+        "basal": "DAP 75kg/acre + MOP 40kg/acre + FYM 8 tonnes/acre",
+        "first_top_dress": "Urea 50kg/acre at 45 days (with first earthing up)",
+        "second_top_dress": "Urea 50kg/acre at 90 days (with second earthing up)",
+        "third_top_dress": "Urea 35kg/acre at 120 days (with third earthing up)",
+        "micronutrients": "Ferrous Sulphate 10kg/acre for iron deficiency"
+      },
+      "common_diseases": [
+        "red_rot",
+        "smut",
+        "wilt",
+        "grassy_shoot",
+        "rust"
+      ],
+      "common_pests": [
+        "early_shoot_borer",
+        "internode_borer",
+        "top_borer",
+        "white_grub",
+        "mealybug"
+      ],
+      "intercropping": "Short-duration pulses (green gram, cowpea) or vegetables between rows in first 3 months",
+      "organic_practices": "Apply press mud 4 tonnes/acre. Use bio-fertilizers Azotobacter + PSB. Trash mulching."
+    },
+    {
+      "id": "crop_ragi",
+      "name": "Ragi (Finger Millet)",
+      "local_name": "Ragi",
+      "category": "millet",
+      "type": "rainfed/irrigated",
+      "season": [
+        "Kharif"
+      ],
+      "sowing_months": {
+        "Kharif": "May-July"
+      },
+      "harvest_months": {
+        "Kharif": "September-November"
+      },
+      "duration_days": "100-130",
+      "water_requirement": "low-medium",
+      "soil_type": "Red sandy loam, laterite soils, well-drained",
+      "suitable_taluks": [
+        "Nagamangala",
+        "K.R. Pet",
+        "Malavalli",
+        "Pandavapura"
+      ],
+      "irrigation_source": "Rainfed, supplemental irrigation from bore wells",
+      "seed_rate_kg_per_acre": "4-5 (transplanting), 8-10 (direct seeding)",
+      "recommended_varieties": [
+        "GPU-28",
+        "GPU-67",
+        "MR-6",
+        "GPU-45",
+        "ML-365"
+      ],
+      "yield_quintals_per_acre": "12-18 (irrigated), 6-10 (rainfed)",
+      "msp_per_quintal": "₹4,290",
+      "cultivation_practices": [
+        "Nursery: Prepare 1m wide beds. Sow seeds mixed with fine sand. Water daily. Seedlings ready in 18-22 days.",
+        "Main field: Plough 2-3 times. Apply FYM before last ploughing.",
+        "Transplanting: 18-22 day seedlings at 22.5x10cm spacing (SRI: 25x25cm, single seedling).",
+        "Direct seeding: Line sowing at 25cm row spacing. Thin to 10cm between plants at 15 days.",
+        "Weed management: Hand weed twice at 20 and 40 days. Intercultivation with blade harrow."
+      ],
+      "fertilizer_schedule": {
+        "basal": "DAP 30kg/acre + MOP 20kg/acre",
+        "top_dress": "Urea 20kg/acre at 30 days after transplanting",
+        "micronutrients": "Zinc Sulphate 5kg/acre in deficient soils"
+      },
+      "common_diseases": [
+        "finger_blast",
+        "neck_blast",
+        "foot_rot",
+        "leaf_spot"
+      ],
+      "common_pests": [
+        "stem_borer",
+        "army_worm",
+        "aphids",
+        "grasshopper"
+      ],
+      "intercropping": "Ragi + Tur dal (8:2 ratio), Ragi + Field bean, Ragi + Niger",
+      "organic_practices": "Ideal for organic farming. Apply FYM 3 tonnes/acre. Jeevamrutha 200L/acre. Seed treatment with Beejamrutha."
+    },
+    {
+      "id": "crop_coconut",
+      "name": "Coconut",
+      "local_name": "Tenginakaayi",
+      "category": "plantation",
+      "type": "irrigated/rainfed",
+      "season": [
+        "Perennial"
+      ],
+      "sowing_months": {
+        "Planting": "June-July (onset of monsoon)"
+      },
+      "harvest_months": {
+        "Harvest": "Throughout year, every 45-60 days"
+      },
+      "duration_days": "First yield in 5-7 years, productive for 60+ years",
+      "water_requirement": "medium-high",
+      "soil_type": "Red sandy loam, laterite, well-drained",
+      "suitable_taluks": [
+        "Mandya",
+        "Maddur",
+        "Malavalli",
+        "K.R. Pet",
+        "Nagamangala",
+        "Srirangapatna",
+        "Pandavapura"
+      ],
+      "irrigation_source": "Drip irrigation recommended, bore wells, canal",
+      "seed_rate_kg_per_acre": "70 palms per acre (7.5m x 7.5m spacing)",
+      "recommended_varieties": [
+        "Tiptur Tall",
+        "DxT Hybrid",
+        "Gangabondam",
+        "Chowghat Orange Dwarf"
+      ],
+      "yield_quintals_per_acre": "80-120 nuts/palm/year (bearing palm)",
+      "msp_per_quintal": "₹3,300/quintal copra",
+      "cultivation_practices": [
+        "Pit preparation: Dig 1m x 1m x 1m pits. Fill with topsoil + 20kg FYM + 1kg neem cake + 200g bone meal.",
+        "Planting: Select 9-12 month old seedlings with 6+ leaves. Plant during monsoon.",
+        "Basin management: Maintain 1.8m radius basin around palm. Mulch with coconut fronds/coir pith.",
+        "Intercropping: Grow banana, turmeric, ginger, cowpea between palms in first 8 years.",
+        "Harvest: Harvest every 45-60 days when nuts mature (11 months after flowering)."
+      ],
+      "fertilizer_schedule": {
+        "year_1_to_3": "FYM 20kg + Urea 300g + SSP 500g + MOP 500g per palm per year",
+        "bearing_palm": "FYM 25kg + Urea 1kg + SSP 1.5kg + MOP 2kg per palm per year",
+        "application": "Apply in 2 split doses: May-June and September-October in circular trenches",
+        "micronutrients": "Borax 50g + MgSO4 500g per palm per year"
+      },
+      "common_diseases": [
+        "bud_rot",
+        "stem_bleeding",
+        "leaf_blight",
+        "root_wilt"
+      ],
+      "common_pests": [
+        "red_palm_weevil",
+        "rhinoceros_beetle",
+        "eriophyid_mite",
+        "black_headed_caterpillar"
+      ],
+      "intercropping": "Banana, Turmeric, Ginger, Cowpea, Groundnut, Fodder grass between rows",
+      "organic_practices": "Apply Jeevamrutha 5L/palm/month. Coir pith composting. Neem cake 2kg/palm. Green manuring with sun hemp."
+    },
+    {
+      "id": "crop_maize",
+      "name": "Maize (Corn)",
+      "local_name": "Mekkejola",
+      "category": "cereal",
+      "type": "irrigated/rainfed",
+      "season": [
+        "Kharif",
+        "Rabi"
+      ],
+      "sowing_months": {
+        "Kharif": "June-July",
+        "Rabi": "October-November"
+      },
+      "harvest_months": {
+        "Kharif": "September-October",
+        "Rabi": "February-March"
+      },
+      "duration_days": "95-110",
+      "water_requirement": "medium",
+      "soil_type": "Red sandy loam, well-drained",
+      "suitable_taluks": [
+        "Nagamangala",
+        "K.R. Pet",
+        "Malavalli"
+      ],
+      "irrigation_source": "Rainfed, supplemental irrigation",
+      "seed_rate_kg_per_acre": "8-10 (hybrid)",
+      "recommended_varieties": [
+        "NK-6240",
+        "900M Gold",
+        "Pioneer 3502",
+        "Kaveri 50",
+        "Bio 9681"
+      ],
+      "yield_quintals_per_acre": "25-35",
+      "msp_per_quintal": "₹2,090",
+      "cultivation_practices": [
+        "Land preparation: Deep plough, 2 harrowings. Form ridges 60cm apart.",
+        "Sowing: Dibble 1-2 seeds per hill at 20cm spacing on ridges. Thin to 1 plant/hill.",
+        "Critical irrigation: At knee-high stage, tasseling, and grain filling.",
+        "Weed management: Atrazine 800g/acre pre-emergence. Hand weed at 25 days."
+      ],
+      "fertilizer_schedule": {
+        "basal": "DAP 50kg/acre + MOP 20kg/acre",
+        "first_top_dress": "Urea 30kg/acre at knee-high (25-30 days)",
+        "second_top_dress": "Urea 30kg/acre at tasseling (50-55 days)"
+      },
+      "common_diseases": [
+        "turcicum_leaf_blight",
+        "downy_mildew",
+        "stalk_rot",
+        "rust"
+      ],
+      "common_pests": [
+        "fall_army_worm",
+        "stem_borer",
+        "shoot_fly",
+        "cob_borer"
+      ],
+      "intercropping": "Maize + Red gram (4:1), Maize + Soybean",
+      "organic_practices": "FYM 4 tonnes/acre. Trichogramma cards for stem borer. Neem-based sprays."
+    },
+    {
+      "id": "crop_jowar",
+      "name": "Jowar (Sorghum)",
+      "local_name": "Jola",
+      "category": "millet",
+      "type": "rainfed",
+      "season": [
+        "Kharif",
+        "Rabi"
+      ],
+      "sowing_months": {
+        "Kharif": "June-July",
+        "Rabi": "September-October"
+      },
+      "harvest_months": {
+        "Kharif": "October-November",
+        "Rabi": "January-February"
+      },
+      "duration_days": "100-120",
+      "water_requirement": "low",
+      "soil_type": "Red sandy loam, medium black soil",
+      "suitable_taluks": [
+        "Nagamangala",
+        "K.R. Pet"
+      ],
+      "irrigation_source": "Rainfed",
+      "seed_rate_kg_per_acre": "4-5",
+      "recommended_varieties": [
+        "CSV-20",
+        "DSV-4",
+        "M-35-1 (Rabi)",
+        "CSH-16"
+      ],
+      "yield_quintals_per_acre": "10-15",
+      "msp_per_quintal": "₹3,371 (Hybrid), ₹3,421 (Maldandi)",
+      "cultivation_practices": [
+        "Land preparation: 2 ploughings + harrowing. Ridge and furrow for moisture conservation.",
+        "Sowing: Line sow at 45cm x 15cm spacing. Seed treat with Thiram 3g/kg.",
+        "Thinning: Thin to 1 plant/hill at 15 days.",
+        "Harvest: Harvest when grains are hard and moisture below 14%."
+      ],
+      "fertilizer_schedule": {
+        "basal": "DAP 25kg/acre + MOP 10kg/acre",
+        "top_dress": "Urea 15kg/acre at 30 days"
+      },
+      "common_diseases": [
+        "grain_mold",
+        "charcoal_rot",
+        "downy_mildew",
+        "anthracnose"
+      ],
+      "common_pests": [
+        "shoot_fly",
+        "stem_borer",
+        "midge",
+        "ear_head_worm"
+      ],
+      "intercropping": "Jowar + Tur dal (4:2), Jowar + Groundnut",
+      "organic_practices": "FYM 3 tonnes/acre. Low input crop suitable for organic."
+    },
+    {
+      "id": "crop_banana",
+      "name": "Banana",
+      "local_name": "Bale Hannu",
+      "category": "fruit",
+      "type": "irrigated",
+      "season": [
+        "Year-round"
+      ],
+      "sowing_months": {
+        "Planting": "June-July or February-March"
+      },
+      "harvest_months": {
+        "Harvest": "12-14 months after planting"
+      },
+      "duration_days": "365-420",
+      "water_requirement": "high",
+      "soil_type": "Deep, well-drained loamy soil, rich in organic matter",
+      "suitable_taluks": [
+        "Mandya",
+        "Maddur",
+        "Srirangapatna",
+        "Malavalli"
+      ],
+      "irrigation_source": "Canal, drip irrigation recommended",
+      "seed_rate_kg_per_acre": "1000-1200 suckers or tissue culture plants",
+      "recommended_varieties": [
+        "Yelakki (Poovan)",
+        "Robusta (Cavendish)",
+        "Nendran",
+        "Grand Naine",
+        "Red Banana"
+      ],
+      "yield_quintals_per_acre": "200-300 (depends on variety)",
+      "msp_per_quintal": "Market price based",
+      "cultivation_practices": [
+        "Pit: 45x45x45cm pits at 1.8x1.8m spacing. Fill with topsoil + 10kg FYM + 250g neem cake.",
+        "Planting: Use disease-free sword suckers or tissue culture plants.",
+        "Desuckering: Remove all suckers except 1 follower at 4th month.",
+        "Propping: Support bunch-bearing plants with bamboo props.",
+        "Denaveling: Remove male bud 15 days after last hand opens."
+      ],
+      "fertilizer_schedule": {
+        "per_plant": "200g N + 60g P2O5 + 300g K2O per plant per crop",
+        "application": "Split into 4 doses at 2, 4, 6, and 8 months after planting",
+        "micronutrients": "FeSO4 + ZnSO4 foliar spray at 3, 5, 7 months"
+      },
+      "common_diseases": [
+        "panama_wilt",
+        "sigatoka_leaf_spot",
+        "bunchy_top",
+        "anthracnose"
+      ],
+      "common_pests": [
+        "banana_weevil",
+        "thrips",
+        "aphids",
+        "nematodes"
+      ],
+      "intercropping": "Cowpea, beans, or vegetables between rows in first 3-4 months",
+      "organic_practices": "Jeevamrutha 2L/plant/month. Pseudomonas 20g/plant for wilt. Neem cake 1kg/plant."
+    },
+    {
+      "id": "crop_tomato",
+      "name": "Tomato",
+      "local_name": "Tomato Hannu",
+      "category": "vegetable",
+      "type": "irrigated",
+      "season": [
+        "Kharif",
+        "Rabi",
+        "Summer"
+      ],
+      "sowing_months": {
+        "Kharif": "June-July",
+        "Rabi": "September-October",
+        "Summer": "January-February"
+      },
+      "harvest_months": {
+        "Kharif": "Sept-Nov",
+        "Rabi": "Dec-Feb",
+        "Summer": "April-May"
+      },
+      "duration_days": "90-120",
+      "water_requirement": "medium",
+      "soil_type": "Red sandy loam, well-drained",
+      "suitable_taluks": [
+        "Mandya",
+        "Maddur",
+        "Malavalli",
+        "Srirangapatna"
+      ],
+      "irrigation_source": "Drip, canal, bore well",
+      "seed_rate_kg_per_acre": "150-200g (nursery + transplant)",
+      "recommended_varieties": [
+        "Arka Rakshak",
+        "Arka Samrat",
+        "TO-1057 (Hybrid)",
+        "Abhinav"
+      ],
+      "yield_quintals_per_acre": "120-200",
+      "msp_per_quintal": "Market price (₹800-3000 varies)",
+      "cultivation_practices": [
+        "Nursery: Raise seedlings in pro-trays or raised beds. Ready in 25-30 days.",
+        "Transplant: 30-day seedlings at 60x45cm spacing on raised beds/ridges.",
+        "Staking: Stake plants with bamboo/wire for indeterminate varieties.",
+        "Pruning: Remove suckers below first flower cluster for better yield."
+      ],
+      "fertilizer_schedule": {
+        "basal": "FYM 8 tonnes/acre + DAP 50kg + MOP 30kg",
+        "top_dress_1": "Urea 20kg at 30 days",
+        "top_dress_2": "19:19:19 complex 5g/L foliar spray at flowering"
+      },
+      "common_diseases": [
+        "early_blight",
+        "late_blight",
+        "bacterial_wilt",
+        "tomato_leaf_curl_virus"
+      ],
+      "common_pests": [
+        "fruit_borer",
+        "whitefly",
+        "thrips",
+        "leaf_miner"
+      ],
+      "intercropping": "Marigold as trap crop for fruit borer",
+      "organic_practices": "Trichoderma soil application. Pseudomonas for wilt. Neem oil 3ml/L for pests."
+    },
+    {
+      "id": "crop_mulberry",
+      "name": "Mulberry (for Sericulture)",
+      "local_name": "Hippunerale",
+      "category": "sericulture",
+      "type": "irrigated",
+      "season": [
+        "Perennial"
+      ],
+      "sowing_months": {
+        "Planting": "June-August"
+      },
+      "harvest_months": {
+        "Leaf harvest": "Every 65-70 days (5-6 harvests/year)"
+      },
+      "duration_days": "Perennial, productive for 15-20 years",
+      "water_requirement": "medium-high",
+      "soil_type": "Red sandy loam, deep fertile soils",
+      "suitable_taluks": [
+        "Mandya",
+        "Maddur",
+        "Malavalli",
+        "K.R. Pet",
+        "Srirangapatna"
+      ],
+      "irrigation_source": "Canal, drip, bore well",
+      "seed_rate_kg_per_acre": "6000-8000 saplings (paired row: 60cm+150cm x 60cm)",
+      "recommended_varieties": [
+        "V-1",
+        "S-36",
+        "S-54",
+        "M-5"
+      ],
+      "yield_quintals_per_acre": "60-80 tonnes leaf/acre/year",
+      "msp_per_quintal": "Cocoon price: ₹350-600/kg",
+      "cultivation_practices": [
+        "Land prep: Deep plough. Prepare beds 60cm wide with 150cm path.",
+        "Planting: Plant rooted saplings at 60x60cm in paired rows.",
+        "Pruning: Bottom prune at 15cm from ground every 65-70 days.",
+        "Harvest leaf at 65-70 days after pruning for silkworm rearing."
+      ],
+      "fertilizer_schedule": {
+        "per_harvest": "Urea 25kg + SSP 15kg + MOP 10kg per acre after each harvest",
+        "organic": "FYM 8 tonnes/acre/year"
+      },
+      "common_diseases": [
+        "root_rot",
+        "powdery_mildew",
+        "leaf_rust",
+        "tukra"
+      ],
+      "common_pests": [
+        "whitefly",
+        "thrips",
+        "mealybug",
+        "leaf_roller"
+      ],
+      "intercropping": "Not recommended for mulberry gardens",
+      "organic_practices": "Vermicompost 2 tonnes/acre. Neem cake 200kg/acre. Bio-fertilizers."
+    },
+    {
+      "id": "crop_turmeric",
+      "name": "Turmeric",
+      "local_name": "Arishina",
+      "category": "spice",
+      "type": "irrigated",
+      "season": [
+        "Kharif"
+      ],
+      "sowing_months": {
+        "Kharif": "June-July"
+      },
+      "harvest_months": {
+        "Harvest": "January-March (8-9 months)"
+      },
+      "duration_days": "240-270",
+      "water_requirement": "medium",
+      "soil_type": "Red sandy loam, well-drained, rich organic",
+      "suitable_taluks": [
+        "Mandya",
+        "Maddur",
+        "K.R. Pet"
+      ],
+      "irrigation_source": "Canal, drip",
+      "seed_rate_kg_per_acre": "600-800 kg rhizome fingers",
+      "recommended_varieties": [
+        "Pratibha",
+        "Salem",
+        "Erode Local",
+        "Rajendra Sonia"
+      ],
+      "yield_quintals_per_acre": "80-100 (fresh), 16-20 (cured)",
+      "msp_per_quintal": "Market price ₹8000-15000/quintal (cured)",
+      "cultivation_practices": [
+        "Land prep: Deep plough, form ridges/beds 1m wide.",
+        "Planting: Plant mother/finger rhizomes 5cm deep at 30x20cm.",
+        "Mulching: Apply green leaves/paddy straw mulch immediately after planting and at 45, 90 days.",
+        "Earthing up: At 45 and 90 days after planting."
+      ],
+      "fertilizer_schedule": {
+        "basal": "FYM 8 tonnes + neem cake 200kg + SSP 50kg/acre",
+        "top_dress_1": "Urea 20kg + MOP 15kg at 60 days",
+        "top_dress_2": "Urea 20kg + MOP 15kg at 120 days"
+      },
+      "common_diseases": [
+        "rhizome_rot",
+        "leaf_blotch",
+        "leaf_spot"
+      ],
+      "common_pests": [
+        "shoot_borer",
+        "leaf_roller",
+        "scale_insect",
+        "rhizome_fly"
+      ],
+      "intercropping": "Excellent intercrop in coconut and areca nut gardens",
+      "organic_practices": "Trichoderma seed treatment. Mulching critical. Jeevamrutha 200L/acre."
+    }
+  ],
+  "diseases": [
+    {
+      "id": "blast",
+      "name": "Rice Blast",
+      "crop": "paddy",
+      "type": "fungal",
+      "pathogen": "Pyricularia oryzae",
+      "symptoms": "Diamond-shaped spots with grey center and brown margin on leaves. Neck blast causes panicle breakage at neck node. Node blast causes black lesions on nodes.",
+      "favorable_conditions": "High humidity >90%, temperature 25-28°C, excess nitrogen, cloudy weather with drizzle",
+      "management": {
+        "chemical": "Spray Tricyclazole 75WP 0.6g/L or Isoprothiolane 1.5ml/L at first symptom. For neck blast: spray Tricyclazole at boot leaf stage (before flowering). Repeat after 10 days if needed.",
+        "cultural": "Use resistant varieties (MTU-1010). Avoid excess nitrogen. Maintain proper spacing. Remove infected plant debris. Balanced NPK fertilization.",
+        "biological": "Pseudomonas fluorescens 10g/L seed treatment + foliar spray at tillering."
+      },
+      "severity": "high",
+      "critical_stage": "Tillering and flowering",
+      "faq": [
+        {
+          "q": "How to identify blast in paddy?",
+          "a": "Look for diamond or eye-shaped spots on leaves with grey/white center and brown border. In severe cases, entire leaves dry up. Neck blast shows brown/black discoloration at panicle base causing panicle to break and hang."
+        },
+        {
+          "q": "When to spray for blast in paddy?",
+          "a": "Spray Tricyclazole 0.6g/L at first appearance of leaf blast symptoms. For neck blast prevention, spray at boot leaf stage (when flag leaf sheath swells before panicle emergence). This is the most critical spray."
+        },
+        {
+          "q": "My paddy leaves have brown diamond spots",
+          "a": "This is rice blast disease caused by Pyricularia oryzae fungus. Spray Tricyclazole 75WP at 0.6g/L or Isoprothiolane at 1.5ml/L. Avoid excess nitrogen. Spray immediately and repeat after 10 days."
+        }
+      ]
+    },
+    {
+      "id": "brown_leaf_spot",
+      "name": "Brown Leaf Spot",
+      "crop": "paddy",
+      "type": "fungal",
+      "pathogen": "Helminthosporium oryzae",
+      "symptoms": "Oval brown spots on leaves with grey center. In severe cases, spots merge causing leaf drying. Grains may show black discoloration.",
+      "favorable_conditions": "Nutrient-deficient soils, high humidity, temperatures 25-30°C, waterlogged fields",
+      "management": {
+        "chemical": "Spray Mancozeb 2.5g/L or Propiconazole 1ml/L. Apply Zineb 75WP 2g/L.",
+        "cultural": "Ensure balanced fertilization especially potassium. Proper drainage. Use certified disease-free seeds. Avoid continuous paddy cropping.",
+        "biological": "Trichoderma viride seed treatment 5g/kg seed."
+      },
+      "severity": "medium",
+      "critical_stage": "Grain filling",
+      "faq": [
+        {
+          "q": "Brown spots on paddy leaves",
+          "a": "This is likely Brown Leaf Spot (Helminthosporium). Apply balanced fertilizers, especially potassium (MOP). Spray Mancozeb 2.5g/L. Ensure field drainage. This disease is common in nutrient-deficient soils."
+        }
+      ]
+    },
+    {
+      "id": "sheath_blight",
+      "name": "Sheath Blight",
+      "crop": "paddy",
+      "type": "fungal",
+      "pathogen": "Rhizoctonia solani",
+      "symptoms": "Water-soaked oval greenish-grey lesions on leaf sheaths near water line. Lesions enlarge with greyish-white center and brown margin. Multiple lesions coalesce forming banded pattern.",
+      "favorable_conditions": "Dense planting, excess nitrogen, high humidity, stagnant water, temperature 28-32°C",
+      "management": {
+        "chemical": "Spray Hexaconazole 2ml/L or Validamycin 2ml/L targeting lower leaf sheaths. Propiconazole 1ml/L also effective.",
+        "cultural": "Avoid dense planting. Reduce nitrogen. Ensure proper spacing (20x15cm minimum). Drain fields periodically. Remove weed hosts.",
+        "biological": "Trichoderma harzianum application to soil at transplanting."
+      },
+      "severity": "high",
+      "critical_stage": "Tillering to grain filling",
+      "faq": [
+        {
+          "q": "White-grey patches on paddy stem near water",
+          "a": "This is Sheath Blight caused by Rhizoctonia solani. Spray Hexaconazole 2ml/L or Validamycin 2ml/L on the lower portions of the plant. Drain excess water. Avoid excess nitrogen fertilizer."
+        }
+      ]
+    },
+    {
+      "id": "bacterial_leaf_blight",
+      "name": "Bacterial Leaf Blight (BLB)",
+      "crop": "paddy",
+      "type": "bacterial",
+      "pathogen": "Xanthomonas oryzae pv. oryzae",
+      "symptoms": "Water-soaked lesions starting from leaf tips/margins, turning yellow then white-grey. Leaves dry from tip downward. Bacterial ooze visible as yellow beads on leaf surface in morning.",
+      "favorable_conditions": "Wounds from storms/heavy rains, high nitrogen, temperature 25-30°C, transplanting injury",
+      "management": {
+        "chemical": "No effective chemical cure. Streptocycline 0.5g + Copper oxychloride 2.5g per liter. Copper hydroxide 2g/L.",
+        "cultural": "Use resistant varieties. Avoid clipping seedling tips during transplanting. Balanced NPK. Proper field drainage. Avoid excess nitrogen.",
+        "biological": "Pseudomonas fluorescens 10g/L foliar spray."
+      },
+      "severity": "high",
+      "critical_stage": "Tillering to heading",
+      "faq": [
+        {
+          "q": "Paddy leaves drying from tip turning yellow",
+          "a": "This could be Bacterial Leaf Blight (BLB). There's no complete chemical cure. Spray Streptocycline 0.5g + Copper oxychloride 2.5g per liter. Use resistant varieties next season. Avoid excess nitrogen. Ensure proper drainage."
+        }
+      ]
+    },
+    {
+      "id": "sheath_rot",
+      "name": "Sheath Rot",
+      "crop": "paddy",
+      "type": "fungal",
+      "pathogen": "Sarocladium oryzae",
+      "symptoms": "Dark brown discoloration on flag leaf sheath enclosing panicle. Partially emerged or rotting panicles. White powdery fungal growth inside sheath.",
+      "favorable_conditions": "High nitrogen, insect damage (especially rice mite), high humidity",
+      "management": {
+        "chemical": "Spray Carbendazim 1g/L + Mancozeb 2g/L at boot leaf stage.",
+        "cultural": "Balanced nutrition. Control mites and insects. Use clean seed. Proper spacing.",
+        "biological": "Pseudomonas fluorescens 10g/L spray at boot stage."
+      },
+      "severity": "medium",
+      "critical_stage": "Boot leaf to heading",
+      "faq": []
+    },
+    {
+      "id": "red_rot",
+      "name": "Red Rot",
+      "crop": "sugarcane",
+      "type": "fungal",
+      "pathogen": "Colletotrichum falcatum",
+      "symptoms": "Drying and withering of crown leaves. Red discoloration of internal cane tissue with white patches. Rotten cane with alcoholic smell. Cross-section shows reddened vascular bundles.",
+      "favorable_conditions": "Waterlogged conditions, susceptible varieties, poor drainage, infected seed material",
+      "management": {
+        "chemical": "No effective chemical cure after infection. Sett treatment with Carbendazim 1g/L for 15 minutes before planting.",
+        "cultural": "Use disease-free seed material from healthy nurseries. Grow resistant varieties (Co-86032). Avoid waterlogging. Remove and burn infected canes. Crop rotation with paddy. Hot water treatment of setts at 50°C for 2 hours.",
+        "biological": "Trichoderma viride soil application 2.5kg/acre mixed with FYM."
+      },
+      "severity": "very high",
+      "critical_stage": "5-8 months (grand growth phase)",
+      "faq": [
+        {
+          "q": "Sugarcane leaves drying, red inside cane",
+          "a": "This is Red Rot - the most destructive sugarcane disease. Remove and burn all infected canes immediately. Don't use infected canes as seed. Treat setts with Carbendazim 1g/L before planting. Switch to resistant variety Co-86032 next season."
+        },
+        {
+          "q": "How to prevent red rot in sugarcane",
+          "a": "Use disease-free setts from certified nurseries. Treat setts with Carbendazim 1g/L for 15 min. Grow resistant varieties like Co-86032. Ensure proper drainage. Practice crop rotation with paddy every 3-4 years. Hot water treatment at 50°C for 2 hours."
+        }
+      ]
+    },
+    {
+      "id": "smut",
+      "name": "Whip Smut",
+      "crop": "sugarcane",
+      "type": "fungal",
+      "pathogen": "Ustilago scitaminea",
+      "symptoms": "Black whip-like structure (sorus) emerging from top of cane, covered with black powdery spores. Thin grassy tillers. Reduced cane girth.",
+      "favorable_conditions": "Ratoon crops, infected seed material, dry conditions",
+      "management": {
+        "chemical": "Sett treatment with Carbendazim 1g/L or Propiconazole 1ml/L for 15 min.",
+        "cultural": "Remove and burn smut whips before they open. Don't ratoon infected fields. Use disease-free setts. Grow resistant varieties.",
+        "biological": "Trichoderma viride seed treatment."
+      },
+      "severity": "high",
+      "critical_stage": "5-7 months",
+      "faq": [
+        {
+          "q": "Black whip coming out of sugarcane top",
+          "a": "This is Whip Smut disease. Remove and burn the black whips immediately before spores spread. Don't take ratoon from this field. Use fresh disease-free setts next season. Treat setts with Carbendazim 1g/L."
+        }
+      ]
+    },
+    {
+      "id": "wilt_sugarcane",
+      "name": "Sugarcane Wilt",
+      "crop": "sugarcane",
+      "type": "fungal",
+      "pathogen": "Fusarium sacchari",
+      "symptoms": "Yellowing and drying of leaves from bottom. Internal browning of vascular bundles. Hollow pith in advanced stages. Stunted growth.",
+      "favorable_conditions": "Waterlogging followed by drought, poor drainage, ratoon crop, nematode damage",
+      "management": {
+        "chemical": "Sett treatment with Carbendazim 2g/L + Chlorpyrifos 2.5ml/L.",
+        "cultural": "Avoid waterlogging. Good drainage. Use healthy setts. Crop rotation. Remove infected stools.",
+        "biological": "Trichoderma harzianum 2.5kg/acre mixed with FYM."
+      },
+      "severity": "high",
+      "critical_stage": "4-7 months",
+      "faq": []
+    },
+    {
+      "id": "grassy_shoot",
+      "name": "Grassy Shoot Disease",
+      "crop": "sugarcane",
+      "type": "phytoplasma",
+      "pathogen": "Phytoplasma",
+      "symptoms": "Profuse tillering producing thin grassy shoots. White or pale green chlorotic leaves. No millable canes formed. Looks like grass clump.",
+      "favorable_conditions": "Infected seed material, leafhopper transmission",
+      "management": {
+        "chemical": "No chemical cure. Hot water treatment of setts at 50°C for 2 hours.",
+        "cultural": "Use disease-free certified setts only. Rogue out infected clumps immediately. Control leafhopper vectors. Don't ratoon affected fields.",
+        "biological": "None effective."
+      },
+      "severity": "very high",
+      "critical_stage": "Throughout growth",
+      "faq": [
+        {
+          "q": "Sugarcane growing like grass, no thick canes",
+          "a": "This is Grassy Shoot Disease caused by phytoplasma. No cure exists. Remove all infected clumps immediately. Don't use any canes from this field as seed. Next season, buy fresh certified disease-free setts and treat with hot water at 50°C for 2 hours."
+        }
+      ]
+    },
+    {
+      "id": "finger_blast",
+      "name": "Finger Millet Blast",
+      "crop": "ragi",
+      "type": "fungal",
+      "pathogen": "Pyricularia grisea",
+      "symptoms": "Diamond-shaped lesions on leaves. Neck blast: darkening at finger/ear base causing finger breakage. Finger blast: partial or no grain filling in affected fingers.",
+      "favorable_conditions": "High humidity, excess nitrogen, cloudy weather, heavy dew",
+      "management": {
+        "chemical": "Spray Tricyclazole 0.6g/L at 50% flowering for neck/finger blast prevention. Carbendazim 1g/L for leaf blast.",
+        "cultural": "Use resistant varieties GPU-28. Avoid excess nitrogen. Optimal spacing. Early sowing.",
+        "biological": "Pseudomonas fluorescens seed treatment."
+      },
+      "severity": "high",
+      "critical_stage": "Flowering",
+      "faq": [
+        {
+          "q": "Ragi fingers breaking, black at base",
+          "a": "This is Finger/Neck Blast in ragi. For current season, if caught early spray Tricyclazole 0.6g/L. For next season, spray preventively at 50% flowering. Use resistant variety GPU-28. Don't apply excess nitrogen."
+        }
+      ]
+    },
+    {
+      "id": "bud_rot_coconut",
+      "name": "Bud Rot",
+      "crop": "coconut",
+      "type": "fungal",
+      "pathogen": "Phytophthora palmivora",
+      "symptoms": "Yellowing and wilting of central spindle leaf. Rotting of growing point (bud). Foul smell from crown. Eventually entire crown collapses.",
+      "favorable_conditions": "High rainfall, waterlogging, poor drainage, humid conditions",
+      "management": {
+        "chemical": "Remove rotted tissue, apply Bordeaux paste on cut surface. Pour Copper oxychloride 3g/L into crown. Metalaxyl-Mancozeb 2.5g/L drench.",
+        "cultural": "Ensure drainage. Remove severely affected palms. Crown cleaning. Avoid injury to crown during harvesting.",
+        "biological": "Trichoderma application to crown region."
+      },
+      "severity": "very high",
+      "critical_stage": "Monsoon season",
+      "faq": [
+        {
+          "q": "Coconut tree center leaf dying, bad smell",
+          "a": "This is Bud Rot - very serious disease. Act immediately: Remove all rotted tissue from crown. Apply Bordeaux paste on cut surface. Pour Copper oxychloride solution (3g/L) into crown cavity. Ensure drainage around palm. If growing point is completely destroyed, the palm cannot be saved."
+        }
+      ]
+    },
+    {
+      "id": "red_palm_weevil_disease",
+      "name": "Red Palm Weevil Attack",
+      "crop": "coconut",
+      "type": "pest",
+      "pathogen": "Rhynchophorus ferrugineus",
+      "symptoms": "Holes on trunk with chewed fiber extruding. Yellowing and drooping of inner fronds. Crown toppling in severe cases. Grubs feed inside trunk.",
+      "favorable_conditions": "Wounds on trunk, poor palm health, neglected gardens",
+      "management": {
+        "chemical": "Inject Monocrotophos 10ml + 10ml water into trunk holes and seal with cement. Place pheromone traps (Ferrugineol) to catch adults.",
+        "cultural": "Avoid trunk injuries. Remove dead palms. Fill leaf axils with sand + BHC. Regular garden maintenance.",
+        "biological": "Release Beauveria bassiana spore suspension into trunk holes."
+      },
+      "severity": "very high",
+      "critical_stage": "Year-round",
+      "faq": [
+        {
+          "q": "Holes in coconut trunk, fiber coming out",
+          "a": "This is Red Palm Weevil attack. Inject Monocrotophos 10ml diluted in 10ml water into each hole and seal with cement/mud. Set up Ferrugineol pheromone traps (3-5/acre). Keep garden clean. Apply preventive sand+BHC mixture in leaf axils of healthy palms."
+        }
+      ]
+    },
+    {
+      "id": "rhinoceros_beetle",
+      "name": "Rhinoceros Beetle",
+      "crop": "coconut",
+      "type": "pest",
+      "pathogen": "Oryctes rhinoceros",
+      "symptoms": "V-shaped cuts on emerging fronds. Bore holes on crown with chewed fiber. Reduced yield. Secondary fungal infections in bore holes.",
+      "favorable_conditions": "Decaying organic matter (breeding sites), neglected manure pits, decomposing trunks",
+      "management": {
+        "chemical": "Fill top 3 leaf axils with sand 250g + Neem cake 250g mixture. Insert Naphthalene balls 3-4 in leaf axils.",
+        "cultural": "Remove and burn all decaying trunks/logs. Maintain breeding site hygiene. Cover manure/compost pits.",
+        "biological": "Install Oryctes virus (OrNV) infected beetles. Use Metarhizium anisopliae 50g/palm in crown."
+      },
+      "severity": "high",
+      "critical_stage": "Year-round, peak in monsoon",
+      "faq": [
+        {
+          "q": "Coconut leaves have V-shaped cuts",
+          "a": "This is Rhinoceros Beetle damage. Fill top 3 leaf axils with mixture of 250g fine sand + 250g neem cake. Place 3-4 naphthalene balls in inner leaf axils. Clean up all decaying organic matter, old trunks and logs around your garden - these are beetle breeding sites."
+        }
+      ]
+    },
+    {
+      "id": "panama_wilt",
+      "name": "Panama Wilt (Fusarium Wilt)",
+      "crop": "banana",
+      "type": "fungal",
+      "pathogen": "Fusarium oxysporum f.sp. cubense",
+      "symptoms": "Yellowing and splitting of outer leaf sheaths (pseudostem). Leaves droop and collapse around pseudostem like a skirt. Internal pseudostem shows reddish-brown vascular discoloration.",
+      "favorable_conditions": "Infected soil, nematode damage, waterlogging, acidic soils",
+      "management": {
+        "chemical": "No effective chemical cure after infection. Drench Carbendazim 2g/L around healthy plants as preventive.",
+        "cultural": "Use disease-free tissue culture plants. Don't plant banana in infected soil for 5 years. Grow resistant varieties (Poovan/Yelakki). Soil solarization. Apply lime 2kg/pit for acidic soils.",
+        "biological": "Trichoderma viride 50g/plant + Pseudomonas fluorescens 50g/plant applied to soil at planting and 3 months."
+      },
+      "severity": "very high",
+      "critical_stage": "3-6 months",
+      "faq": [
+        {
+          "q": "Banana plant leaves drooping, yellow, stem splitting",
+          "a": "This is Panama Wilt (Fusarium Wilt) - most destructive banana disease. No chemical cure. Remove infected plants with roots and burn. Don't plant banana in same spot for 5 years. Use tissue culture plants next time. Apply Trichoderma 50g + Pseudomonas 50g per plant at planting. Use resistant Poovan/Yelakki variety."
+        }
+      ]
+    },
+    {
+      "id": "early_blight_tomato",
+      "name": "Early Blight",
+      "crop": "tomato",
+      "type": "fungal",
+      "pathogen": "Alternaria solani",
+      "symptoms": "Dark brown circular spots with concentric rings (target-board pattern) on lower leaves first. Spots enlarge, leaves yellow and drop. Stem and fruit lesions possible.",
+      "favorable_conditions": "Warm humid weather 24-29°C, prolonged leaf wetness, dense planting",
+      "management": {
+        "chemical": "Spray Mancozeb 2.5g/L or Chlorothalonil 2g/L at first symptoms. Alternate with Azoxystrobin 1ml/L.",
+        "cultural": "Remove lower infected leaves. Proper spacing. Mulching to prevent soil splash. Crop rotation. Stake plants.",
+        "biological": "Trichoderma viride foliar spray."
+      },
+      "severity": "medium-high",
+      "critical_stage": "Fruiting",
+      "faq": [
+        {
+          "q": "Tomato lower leaves brown spots with rings",
+          "a": "This is Early Blight (Alternaria). Remove lower infected leaves. Spray Mancozeb 2.5g/L immediately. Ensure proper spacing and staking. Mulch around plants to prevent soil splash. Rotate crops - don't grow tomato/brinjal in same spot next season."
+        }
+      ]
+    },
+    {
+      "id": "leaf_curl_tomato",
+      "name": "Tomato Leaf Curl Virus",
+      "crop": "tomato",
+      "type": "viral",
+      "pathogen": "Tomato leaf curl virus (ToLCV), transmitted by whitefly",
+      "symptoms": "Upward curling of leaves. Leaves become thick, leathery, and crinkled. Stunted growth. Reduced or no fruit set. Yellow margin on leaves.",
+      "favorable_conditions": "High whitefly population, warm dry weather, no resistant varieties",
+      "management": {
+        "chemical": "No cure for virus. Control whitefly vector: Imidacloprid 0.3ml/L or Thiamethoxam 0.3g/L spray every 15 days. Yellow sticky traps.",
+        "cultural": "Use resistant varieties (Arka Rakshak). Remove infected plants early. Barrier crops (maize/sorghum). Avoid planting near old infected fields.",
+        "biological": "Neem oil 5ml/L spray for whitefly. Release Encarsia formosa parasitoid."
+      },
+      "severity": "very high",
+      "critical_stage": "Seedling to vegetative",
+      "faq": [
+        {
+          "q": "Tomato leaves curling upward, stunted",
+          "a": "This is Tomato Leaf Curl Virus spread by whiteflies. No cure for infected plants - remove and destroy them. Control whiteflies with Imidacloprid 0.3ml/L spray. Use yellow sticky traps. Next season use resistant variety Arka Rakshak. Plant barrier crops like maize around tomato field."
+        }
+      ]
+    },
+    {
+      "id": "powdery_mildew_mulberry",
+      "name": "Powdery Mildew",
+      "crop": "mulberry",
+      "type": "fungal",
+      "pathogen": "Phyllactinia corylea",
+      "symptoms": "White powdery patches on lower leaf surface. Leaves curl upward. Premature leaf fall. Reduced leaf quality for silkworm feeding.",
+      "favorable_conditions": "Cool dry weather (18-24°C), low humidity, winter months",
+      "management": {
+        "chemical": "Spray wettable Sulphur 3g/L or Carbendazim 0.5g/L. Wait 10-15 days after spray before feeding leaves to silkworms.",
+        "cultural": "Proper spacing. Adequate irrigation. Balanced fertilization. Remove affected leaves.",
+        "biological": "None recommended for mulberry (chemical residue affects silkworms)."
+      },
+      "severity": "medium",
+      "critical_stage": "Winter months",
+      "faq": [
+        {
+          "q": "White powder on mulberry leaves",
+          "a": "This is Powdery Mildew. Spray wettable Sulphur 3g/L. IMPORTANT: Wait at least 15 days after spraying before feeding leaves to silkworms, as chemical residues can kill silkworms."
+        }
+      ]
+    },
+    {
+      "id": "rhizome_rot_turmeric",
+      "name": "Rhizome Rot",
+      "crop": "turmeric",
+      "type": "fungal",
+      "pathogen": "Pythium aphanidermatum",
+      "symptoms": "Water-soaked lesions on collar region. Yellowing of lower leaves. Pseudostem pulls out easily. Rhizome becomes soft, brown, rotten with foul smell.",
+      "favorable_conditions": "Waterlogging, heavy rain, poor drainage, infected seed rhizomes",
+      "management": {
+        "chemical": "Drench Metalaxyl-Mancozeb 2.5g/L around infected plants. Seed treatment with Metalaxyl 2g/kg rhizome.",
+        "cultural": "Use disease-free seed rhizomes. Ensure good drainage. Raised bed cultivation. Remove infected plants. Treat seed with hot water 50°C for 30 min.",
+        "biological": "Trichoderma viride 5g/kg rhizome treatment + soil application 2.5kg/acre."
+      },
+      "severity": "high",
+      "critical_stage": "Monsoon (July-September)",
+      "faq": [
+        {
+          "q": "Turmeric plant yellowing, rhizome rotting",
+          "a": "This is Rhizome Rot (Pythium). Remove infected plants immediately. Drench surrounding healthy plants with Metalaxyl-Mancozeb 2.5g/L. Ensure drainage. For next season: treat seed rhizomes with Trichoderma 5g/kg or Metalaxyl 2g/kg. Plant on raised beds."
+        }
+      ]
+    },
+    {
+      "id": "fall_army_worm",
+      "name": "Fall Armyworm",
+      "crop": "maize",
+      "type": "pest",
+      "pathogen": "Spodoptera frugiperda",
+      "symptoms": "Ragged feeding on whorl leaves. Windowing of leaves. Heavy frass (insect excrement) in whorl. Large caterpillars with inverted Y on head.",
+      "favorable_conditions": "Warm weather, late sowing, monocropping, lack of natural enemies",
+      "management": {
+        "chemical": "Spray Emamectin benzoate 0.4g/L or Chlorantraniliprole 0.3ml/L into whorls. Spray early morning/late evening when larvae are active.",
+        "cultural": "Early sowing. Intercrop with pulses. Erect bird perches 20/acre. Install pheromone traps 5/acre. Hand-pick egg masses.",
+        "biological": "Release Trichogramma chilonis egg parasitoid cards 8/acre. Spray Bt (Bacillus thuringiensis) 2g/L. Apply NPV (Nuclear Polyhedrosis Virus) 250 LE/acre."
+      },
+      "severity": "high",
+      "critical_stage": "Vegetative (whorl stage)",
+      "faq": [
+        {
+          "q": "Caterpillar eating maize whorl leaves",
+          "a": "This is Fall Armyworm. Spray Emamectin benzoate 0.4g/L directly into the leaf whorls. Spray early morning when larvae are active. For organic control: apply Bt (Bacillus thuringiensis) 2g/L. Install pheromone traps and bird perches. Hand-pick and destroy egg masses."
+        }
+      ]
+    }
+  ],
+  "schemes": [
+    {
+      "id": "pmkisan",
+      "name": "PM-KISAN",
+      "full_name": "Pradhan Mantri Kisan Samman Nidhi",
+      "type": "central",
+      "benefit": "₹6,000/year in 3 instalments of ₹2,000",
+      "eligibility": "All land-holding farmer families",
+      "how_to_apply": "Register at pmkisan.gov.in or Common Service Centre. Aadhaar, bank account, land records required. e-KYC mandatory.",
+      "documents": "Aadhaar card, Bank passbook, Land ownership documents (RTC/Pahani)",
+      "faq": [
+        {
+          "q": "How to apply for PM-KISAN",
+          "a": "Visit pmkisan.gov.in or nearest Common Service Centre. You need Aadhaar card, bank passbook, and land documents (RTC). Complete e-KYC for payment. ₹6,000/year in 3 instalments."
+        },
+        {
+          "q": "PM-KISAN money not received",
+          "a": "Check status at pmkisan.gov.in with Aadhaar/mobile number. Common issues: e-KYC not done, Aadhaar-bank link missing, or land records not updated. Visit CSC or agriculture office."
+        }
+      ]
+    },
+    {
+      "id": "pmfby",
+      "name": "PMFBY",
+      "full_name": "Pradhan Mantri Fasal Bima Yojana",
+      "type": "central",
+      "benefit": "Crop insurance against natural calamities, pests, diseases. Full sum insured coverage.",
+      "eligibility": "All farmers growing notified crops. Voluntary for loanee and non-loanee farmers.",
+      "premium": "Kharif: 2% of sum insured, Rabi: 1.5%, Commercial/Horticulture: 5%. Government pays remaining premium.",
+      "how_to_apply": "Apply through bank, CSC, or PMFBY portal before sowing deadline. Report crop loss within 72 hours.",
+      "faq": [
+        {
+          "q": "How to get crop insurance",
+          "a": "Apply for PMFBY through your bank, CSC, or pmfby.gov.in before the sowing deadline. Premium: 2% for Kharif, 1.5% for Rabi crops. Report any crop loss to insurance company/bank within 72 hours."
+        },
+        {
+          "q": "Crop damaged by rain flood",
+          "a": "Report crop loss to your insurance company or bank within 72 hours. Take photos of damage. If enrolled in PMFBY, you'll get compensation based on crop cutting experiments. Contact agriculture office for assessment."
+        }
+      ]
+    },
+    {
+      "id": "krishi_bhagya",
+      "name": "Krishi Bhagya",
+      "full_name": "Krishi Bhagya Scheme",
+      "type": "state",
+      "benefit": "Subsidy for farm ponds (80%), diesel pump sets (50%), sprinkler/drip sets (90% for SC/ST, 80% others)",
+      "eligibility": "Farmers in rainfed areas of Karnataka",
+      "how_to_apply": "Apply through Raitha Samparka Kendra or agriculture office. Online via Seva Sindhu portal.",
+      "faq": [
+        {
+          "q": "How to get farm pond subsidy",
+          "a": "Apply for Krishi Bhagya scheme through your local Raitha Samparka Kendra. 80% subsidy on farm ponds, 50% on pump sets. For rainfed area farmers. Apply on Seva Sindhu portal or agriculture office."
+        }
+      ]
+    },
+    {
+      "id": "savayava_bhagya",
+      "name": "Savayava Bhagya",
+      "full_name": "Savayava Bhagya (Organic Farming)",
+      "type": "state",
+      "benefit": "Up to 90% subsidy for organic farming units. Training, inputs, and certification support.",
+      "eligibility": "Farmers willing to convert to organic farming in Karnataka",
+      "how_to_apply": "Apply through agriculture department or Seva Sindhu portal.",
+      "faq": [
+        {
+          "q": "Government help for organic farming",
+          "a": "Apply for Savayava Bhagya scheme - up to 90% subsidy for organic farming setup. Includes training, organic inputs, and certification support. Contact agriculture office or apply on Seva Sindhu portal."
+        }
+      ]
+    },
+    {
+      "id": "surya_raitha",
+      "name": "Surya Raitha",
+      "full_name": "Karnataka Surya Raitha Scheme",
+      "type": "state",
+      "benefit": "Financial assistance for solar-powered pump sets for irrigation",
+      "eligibility": "Farmers in Karnataka with agricultural land",
+      "how_to_apply": "Apply through BESCOM/HESCOM or agriculture department.",
+      "faq": [
+        {
+          "q": "Solar pump subsidy for farmers",
+          "a": "Apply for Surya Raitha scheme for solar pump set subsidy. Contact your local electricity supply company (HESCOM/BESCOM) or agriculture department for application."
+        }
+      ]
+    },
+    {
+      "id": "drip_subsidy",
+      "name": "Drip Irrigation Subsidy",
+      "full_name": "Micro Irrigation Scheme (PMKSY-MI)",
+      "type": "central",
+      "benefit": "55% subsidy for small/marginal farmers, 45% for others on drip/sprinkler systems",
+      "eligibility": "All farmers with minimum 0.5 acre land",
+      "how_to_apply": "Apply through agriculture/horticulture department. Select empaneled company.",
+      "faq": [
+        {
+          "q": "How to get drip irrigation subsidy",
+          "a": "Apply for PMKSY Micro Irrigation scheme. 55% subsidy for small farmers, 45% for others. Apply through horticulture/agriculture department. Minimum 0.5 acre land needed. Select from empaneled drip companies."
+        }
+      ]
+    }
+  ],
+  "fertilizers": [
+    {
+      "id": "urea_guide",
+      "name": "Urea",
+      "type": "nitrogen",
+      "content": "46% N",
+      "appearance": "White prills/granules",
+      "usage": "Top dressing for all crops. Apply in standing water for paddy. Split application recommended.",
+      "rate_general": "50-100 kg/acre depending on crop",
+      "price": "₹267/45kg bag (subsidized)",
+      "precautions": "Don't apply during heavy rain. Don't mix with alkaline fertilizers. Excess causes lodging and pest susceptibility.",
+      "faq": [
+        {
+          "q": "How much urea for paddy per acre",
+          "a": "Total 50-75 kg Urea per acre for paddy in 2-3 splits: 25kg at 21 days (tillering), 25kg at 42 days (panicle initiation). Apply in 2-3cm standing water for better absorption. Avoid excess - causes blast disease susceptibility."
+        },
+        {
+          "q": "How much urea for sugarcane",
+          "a": "Total 135kg Urea per acre for sugarcane in 3 splits: 50kg at 45 days, 50kg at 90 days, 35kg at 120 days. Apply with earthing up operations. Always combine with phosphorus and potassium."
+        }
+      ]
+    },
+    {
+      "id": "dap_guide",
+      "name": "DAP",
+      "type": "phosphorus",
+      "content": "18% N + 46% P2O5",
+      "appearance": "Dark brown/black granules",
+      "usage": "Basal application at planting/transplanting. Promotes root development and early growth.",
+      "rate_general": "50-75 kg/acre as basal",
+      "price": "₹1,350/50kg bag (subsidized)",
+      "faq": [
+        {
+          "q": "When to apply DAP",
+          "a": "Apply DAP as basal dose at planting or transplanting time. Mix into soil during last ploughing or place in furrows before sowing. Don't top-dress with DAP. For paddy: 50kg/acre, Sugarcane: 75kg/acre."
+        }
+      ]
+    },
+    {
+      "id": "mop_guide",
+      "name": "MOP (Muriate of Potash)",
+      "type": "potassium",
+      "content": "60% K2O",
+      "appearance": "Red/pink crystals",
+      "usage": "Basal and top dressing. Strengthens stems, improves grain filling, disease resistance.",
+      "rate_general": "20-40 kg/acre",
+      "price": "₹850/50kg bag",
+      "faq": [
+        {
+          "q": "Why is potash important",
+          "a": "Potash (MOP) strengthens stems (prevents lodging), improves grain filling and quality, increases disease resistance, and helps water use efficiency. Mandya soils are often low in potassium. Apply 20-40 kg MOP/acre as basal for most crops."
+        }
+      ]
+    },
+    {
+      "id": "zinc_sulphate",
+      "name": "Zinc Sulphate",
+      "type": "micronutrient",
+      "content": "21% Zn + 10% S",
+      "usage": "Basal for paddy in zinc-deficient soils. Corrects zinc deficiency causing bronzing/browning of leaves.",
+      "rate_general": "10 kg/acre",
+      "price": "₹50-60/kg",
+      "faq": [
+        {
+          "q": "Paddy leaves turning brown bronze color",
+          "a": "This could be Zinc deficiency (Khaira disease). Apply Zinc Sulphate 10kg/acre to soil. For immediate relief, spray ZnSO4 5g + lime 2.5g per liter of water. Common in alkaline and waterlogged soils of Mandya."
+        }
+      ]
+    }
+  ],
+  "irrigation": [
+    {
+      "id": "krs_canal",
+      "name": "KRS Canal Irrigation",
+      "type": "canal",
+      "description": "Krishna Raja Sagara (KRS) dam on Cauvery river is primary irrigation source for Mandya district. Water released through Visvesvaraya Canal network covering Mandya, Maddur, Malavalli, Srirangapatna, Pandavapura taluks.",
+      "schedule": "Kharif release: June-July to November. Rabi: January-April. Summer: Limited based on storage. On-off pattern of release.",
+      "crops_supported": "Paddy, Sugarcane (main), Banana, Vegetables",
+      "faq": [
+        {
+          "q": "When does canal water release start",
+          "a": "KRS canal water for Kharif is usually released in June-July depending on dam storage and monsoon. Rabi release starts January. Follow ICC (Irrigation Consultative Committee) announcements. Check with Cauvery Neeravari Nigam Limited (CNNL) for exact dates."
+        },
+        {
+          "q": "Canal water not reaching my field",
+          "a": "Contact your local Water User Association or Cauvery Neeravari Nigam Limited (CNNL). File complaint at district irrigation office. Possible issues: channel blockage, unauthorized tapping upstream, or scheduled rotation. Tail-end farmers should coordinate with WUA for equitable distribution."
+        }
+      ]
+    },
+    {
+      "id": "drip_irrigation",
+      "name": "Drip Irrigation",
+      "type": "micro_irrigation",
+      "description": "Most water-efficient method. Delivers water directly to root zone through emitters. Saves 40-60% water compared to flood irrigation.",
+      "suitable_crops": "Sugarcane, Coconut, Banana, Tomato, Vegetables, Turmeric, All horticultural crops",
+      "benefits": "40-60% water saving, 20-30% yield increase, reduced weed growth, fertigation possible, uniform water application",
+      "cost": "₹40,000-60,000/acre (before subsidy). With PMKSY subsidy: ₹18,000-33,000/acre",
+      "faq": [
+        {
+          "q": "How to install drip irrigation",
+          "a": "1. Contact empaneled drip company (Jain, Netafim, etc.). 2. Apply for PMKSY subsidy through horticulture dept (55% for small farmers). 3. Company surveys field and designs system. 4. Installation takes 1-2 days per acre. Cost: ₹40,000-60,000/acre before subsidy."
+        },
+        {
+          "q": "Drip vs flood irrigation which is better",
+          "a": "Drip irrigation saves 40-60% water, increases yield 20-30%, reduces weeds, enables fertigation, and gives uniform water. Initial cost ₹40,000-60,000/acre but 55% subsidy available. Best for sugarcane, coconut, banana, vegetables. Flood irrigation wastes water and causes waterlogging."
+        }
+      ]
+    },
+    {
+      "id": "sprinkler",
+      "name": "Sprinkler Irrigation",
+      "type": "micro_irrigation",
+      "description": "Overhead water application simulating rainfall. Good for field crops.",
+      "suitable_crops": "Ragi, Maize, Groundnut, Pulses, Vegetables",
+      "cost": "₹20,000-30,000/acre (before subsidy)",
+      "faq": [
+        {
+          "q": "Sprinkler irrigation for ragi",
+          "a": "Sprinkler is good for ragi and millets. Cost ₹20,000-30,000/acre. Subsidy available under PMKSY. Saves 30-40% water. Provide 1 irrigation of 30mm every 7-10 days during dry spells. Best for supplemental irrigation in rainfed areas."
+        }
+      ]
+    }
+  ],
+  "organic_farming": [
+    {
+      "id": "jeevamrutha",
+      "name": "Jeevamrutha",
+      "type": "liquid_manure",
+      "preparation": "Mix in 200L water: 10kg fresh cow dung + 10L cow urine + 2kg jaggery + 2kg pulse flour (gram/tur) + handful of soil from farm. Stir well. Ferment 48 hours in shade, stirring twice daily.",
+      "application": "Apply 200L/acre through irrigation every 15 days. Or dilute 1:10 and drench around plants.",
+      "benefits": "Improves soil microbial activity, provides nutrients, enhances soil structure, promotes earthworms.",
+      "faq": [
+        {
+          "q": "How to make jeevamrutha",
+          "a": "In 200L water barrel, mix: 10kg fresh cow dung + 10L cow urine + 2kg jaggery + 2kg pulse flour (any dal flour) + handful of farm soil. Stir well, cover loosely, keep in shade. Stir twice daily for 48 hours. Apply 200L/acre through irrigation or dilute 1:10 for drenching. Make fresh batch every 2 weeks."
+        }
+      ]
+    },
+    {
+      "id": "beejamrutha",
+      "name": "Beejamrutha",
+      "type": "seed_treatment",
+      "preparation": "Mix: 5kg cow dung + 5L cow urine + 50g lime + 20L water. Mix well. Soak seeds for 20 minutes before sowing.",
+      "application": "Seed treatment before sowing. Protects against soil-borne diseases.",
+      "faq": [
+        {
+          "q": "Organic seed treatment method",
+          "a": "Use Beejamrutha: Mix 5kg fresh cow dung + 5L cow urine + 50g lime in 20L water. Soak seeds for 20 minutes, dry in shade, then sow. Protects against soil-borne fungal diseases naturally. Use for paddy, ragi, maize, pulses."
+        }
+      ]
+    },
+    {
+      "id": "panchagavya",
+      "name": "Panchagavya",
+      "type": "growth_promoter",
+      "preparation": "Mix: 5kg cow dung + 3L cow urine + 2L cow milk + 2L curd + 1L ghee + 3L sugarcane juice + 3L tender coconut water + 12 ripe bananas. Ferment 15 days, stir twice daily.",
+      "application": "Dilute 3% (30ml/L) for foliar spray. Apply every 15 days. Also through drip/irrigation.",
+      "faq": [
+        {
+          "q": "What is panchagavya how to use",
+          "a": "Panchagavya is a powerful organic growth promoter. Mix cow dung, urine, milk, curd, ghee, sugarcane juice, coconut water, bananas. Ferment 15 days. Dilute 30ml/L water for foliar spray every 15 days. Improves growth, flowering, fruit quality. Use for all crops."
+        }
+      ]
+    },
+    {
+      "id": "vermicompost",
+      "name": "Vermicompost",
+      "type": "compost",
+      "preparation": "Layer cow dung + crop residues + kitchen waste in brick/cement bed. Add earthworms (Eisenia fetida). Keep moist. Ready in 60-90 days.",
+      "application": "2-4 tonnes/acre as basal. Mix in pit for horticultural crops.",
+      "cost": "₹8-12/kg if purchased. Make at home for free.",
+      "faq": [
+        {
+          "q": "How to make vermicompost at home",
+          "a": "Build 3x1x0.5m brick bed in shade. Layer: 10cm dry crop residue + 10cm cow dung + 10cm kitchen waste/green matter. Add 1kg earthworms (Eisenia fetida). Keep moist (not waterlogged). Cover with jute. Ready in 60-90 days. Harvest by heaping and collecting worms from bottom. Apply 2-4 tonnes/acre."
+        }
+      ]
+    }
+  ],
+  "general_faq": [
+    {
+      "id": "mandya_profile",
+      "q": "Tell me about Mandya district agriculture",
+      "category": "general",
+      "a": "Mandya district is one of Karnataka's most agriculturally prosperous regions, situated in the Cauvery river basin. It has 7 taluks: Mandya, Maddur, Malavalli, Pandavapura, Srirangapatna, Nagamangala, and K.R. Pet. Major crops: Paddy, Sugarcane, Ragi, Coconut, Banana, Mulberry (sericulture). Irrigation from KRS and Hemavathy dams. Soil: primarily red sandy loam. Known as 'Sugar Bowl of Karnataka'."
+    },
+    {
+      "id": "kharif_crops",
+      "q": "What crops to grow in Kharif season in Mandya",
+      "category": "recommendation",
+      "a": "Kharif (June-November) crops for Mandya: IRRIGATED - Paddy (main), Maize, Banana. RAINFED - Ragi (main), Jowar, Cowpea, Horse gram, Green gram, Black gram. Also sow Turmeric and Ginger in June-July. Start coconut planting. Nursery for vegetable seedlings (Tomato, Brinjal, Chili)."
+    },
+    {
+      "id": "rabi_crops",
+      "q": "What crops to grow in Rabi season in Mandya",
+      "category": "recommendation",
+      "a": "Rabi (November-March) crops for Mandya: IRRIGATED - Paddy (second crop), Maize, Tomato, Brinjal, Chili, Beans, Cabbage. RAINFED - Jowar (Rabi), Horse gram, Safflower. Winter vegetables do well. Good time for planting fruit trees. Sugarcane continues (perennial)."
+    },
+    {
+      "id": "summer_crops",
+      "q": "What to grow in summer in Mandya",
+      "category": "recommendation",
+      "a": "Summer (March-May) in Mandya: IRRIGATED - Watermelon, Muskmelon, Cucumber, Sunflower, Groundnut, Green gram (short duration). Summer ploughing recommended for pest/disease control. Prepare nursery for Kharif paddy (May-June). Apply FYM/compost to fields."
+    },
+    {
+      "id": "soil_testing",
+      "q": "Where to get soil testing done in Mandya",
+      "category": "general",
+      "a": "Get soil testing at: 1. Soil Testing Laboratory, Dept of Agriculture, Mandya. 2. KVK Mandya (V.C. Farm, Mandya). 3. IIHR Bangalore soil testing lab. Collect soil sample: Take 10-15 samples from field at 15cm depth in V-shape pattern. Mix well, take 500g. Cost: ₹50-100. Get test done before every season for best fertilizer recommendation."
+    },
+    {
+      "id": "kvk_mandya",
+      "q": "Contact details KVK Mandya",
+      "category": "general",
+      "a": "Krishi Vigyan Kendra (KVK) Mandya: Located at V.C. Farm, Mandya-571405, Karnataka. Under University of Agricultural Sciences, Bangalore. Services: Soil testing, Seed availability, Training programs, Farm advisory, Disease diagnosis. Visit for free expert advice on any farming problem."
+    },
+    {
+      "id": "market_info",
+      "q": "Where to sell crops in Mandya",
+      "category": "market",
+      "a": "APMC Markets in Mandya district: 1. Mandya APMC (main market yard). 2. Maddur APMC. 3. K.R. Pet APMC. 4. Nagamangala APMC. Sugar factories for sugarcane: Mandya Sugar (MySugar), Pandavapura Sugar Factory. Coconut: Mandya APMC or Tiptur market. Also sell through e-NAM portal for better prices."
+    },
+    {
+      "id": "water_saving",
+      "q": "How to save water in farming",
+      "category": "irrigation",
+      "a": "Water saving methods for Mandya farmers: 1. Drip irrigation (saves 40-60% water). 2. Sprinkler for field crops (saves 30%). 3. Mulching with crop residues (reduces evaporation 25%). 4. SRI method for paddy (uses 30% less water). 5. Raised bed planting for vegetables. 6. Farm ponds for rainwater harvesting (Krishi Bhagya subsidy available). 7. Alternate wetting-drying in paddy."
+    },
+    {
+      "id": "crop_rotation",
+      "q": "Best crop rotation for Mandya",
+      "category": "recommendation",
+      "a": "Recommended crop rotations for Mandya: 1. Paddy-Paddy-Green gram (2 year). 2. Sugarcane (3 years)-Paddy (1 year)-repeat. 3. Ragi-Horse gram-Ragi. 4. Tomato-Beans-Cabbage (vegetable rotation). 5. Maize-Groundnut rotation. Avoid: continuous paddy (depletes nutrients), continuous sugarcane beyond 3 ratoons. Rotate to break disease cycles."
+    },
+    {
+      "id": "emergency_pest",
+      "q": "Emergency pest attack what to do",
+      "category": "emergency",
+      "a": "Emergency pest attack steps: 1. IDENTIFY the pest - take photo/sample to agriculture office or KVK Mandya. 2. If identified, buy recommended pesticide from authorized dealer. 3. SPRAY in early morning or late evening (not mid-day). 4. Follow dosage exactly on label. 5. Wear protective clothing. 6. For large outbreaks, report to agriculture officer - government may provide free pesticides. 7. Keep Mandya agriculture officer helpline handy."
+    },
+    {
+      "id": "seed_source",
+      "q": "Where to buy quality seeds in Mandya",
+      "category": "general",
+      "a": "Quality seed sources in Mandya: 1. Karnataka State Seeds Corporation (KSSC) depot. 2. Raitha Samparka Kendra (RSK) at hobli level. 3. KVK Mandya (V.C. Farm). 4. University of Agricultural Sciences seed unit. 5. KSSC authorized dealers. 6. National Seeds Corporation outlets. Always buy certified/truthfully labeled seeds. Check packing date and germination percentage."
+    },
+    {
+      "id": "loan_info",
+      "q": "How to get farm loan",
+      "category": "scheme",
+      "a": "Farm loans available: 1. Kisan Credit Card (KCC) - up to ₹3 lakh at 4% interest (with subsidy). Apply at any bank with land documents. 2. Crop loan - short term for seasonal expenses. 3. Term loan for farm machinery, drip, bore well. Visit nearest bank (SBI, Canara Bank, Cooperative bank) with: RTC, Aadhaar, land documents, photos. Interest subvention makes effective rate 4% for loans up to ₹3 lakh."
+    }
+  ]
+}

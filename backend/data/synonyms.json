@@ -1,0 +1,274 @@
+{
+  "crop_synonyms": {
+    "paddy": [
+      "rice",
+      "bhatta",
+      "nellu",
+      "akki",
+      "dhan"
+    ],
+    "sugarcane": [
+      "cane",
+      "kabbu",
+      "ganna",
+      "sherdi"
+    ],
+    "ragi": [
+      "finger millet",
+      "nachni",
+      "kelvaragu",
+      "mandua"
+    ],
+    "coconut": [
+      "copra",
+      "nariyal",
+      "tenginakaayi",
+      "thengu"
+    ],
+    "maize": [
+      "corn",
+      "mekkejola",
+      "makka",
+      "bhutta"
+    ],
+    "jowar": [
+      "sorghum",
+      "jola",
+      "cholam",
+      "jwari"
+    ],
+    "banana": [
+      "plantain",
+      "bale",
+      "kela",
+      "vazhai"
+    ],
+    "tomato": [
+      "tamatar",
+      "thakkali"
+    ],
+    "turmeric": [
+      "arishina",
+      "haldi",
+      "manjal"
+    ],
+    "mulberry": [
+      "hippunerale",
+      "resham"
+    ],
+    "groundnut": [
+      "peanut",
+      "shenga",
+      "kadalai"
+    ],
+    "cowpea": [
+      "alasande",
+      "lobia"
+    ],
+    "green gram": [
+      "moong",
+      "hesaru",
+      "mung"
+    ],
+    "black gram": [
+      "urad",
+      "uddu"
+    ],
+    "horse gram": [
+      "hurali",
+      "kulthi",
+      "kollu"
+    ],
+    "tur dal": [
+      "red gram",
+      "pigeon pea",
+      "togari"
+    ]
+  },
+  "disease_synonyms": {
+    "blast": [
+      "rice blast",
+      "leaf blast",
+      "neck blast",
+      "panicle blast",
+      "blight"
+    ],
+    "brown spot": [
+      "brown leaf spot",
+      "helminthosporium"
+    ],
+    "sheath blight": [
+      "sheath disease",
+      "rhizoctonia"
+    ],
+    "blight": [
+      "bacterial blight",
+      "leaf blight",
+      "BLB"
+    ],
+    "wilt": [
+      "fusarium wilt",
+      "panama wilt",
+      "wilting",
+      "soaking"
+    ],
+    "rot": [
+      "root rot",
+      "bud rot",
+      "rhizome rot",
+      "stem rot",
+      "red rot"
+    ],
+    "smut": [
+      "whip smut",
+      "kernel smut"
+    ],
+    "rust": [
+      "leaf rust",
+      "stem rust",
+      "orange rust"
+    ],
+    "mildew": [
+      "powdery mildew",
+      "downy mildew",
+      "white powder"
+    ]
+  },
+  "pest_synonyms": {
+    "borer": [
+      "stem borer",
+      "shoot borer",
+      "internode borer",
+      "cob borer",
+      "fruit borer",
+      "top borer"
+    ],
+    "worm": [
+      "army worm",
+      "fall army worm",
+      "caterpillar",
+      "huli",
+      "larva"
+    ],
+    "weevil": [
+      "red palm weevil",
+      "rice weevil",
+      "grain weevil"
+    ],
+    "beetle": [
+      "rhinoceros beetle",
+      "flea beetle",
+      "leaf beetle"
+    ],
+    "fly": [
+      "whitefly",
+      "fruit fly",
+      "shoot fly",
+      "bean fly"
+    ],
+    "hopper": [
+      "brown plant hopper",
+      "BPH",
+      "green leafhopper",
+      "jassid"
+    ],
+    "mite": [
+      "eriophyid mite",
+      "spider mite",
+      "red mite"
+    ],
+    "bug": [
+      "mealybug",
+      "stink bug",
+      "plant bug"
+    ]
+  },
+  "action_synonyms": {
+    "disease": [
+      "problem",
+      "issue",
+      "infection",
+      "attack",
+      "damage",
+      "affected",
+      "dying",
+      "sick",
+      "unhealthy"
+    ],
+    "fertilizer": [
+      "manure",
+      "gombara",
+      "nutrition",
+      "feed",
+      "nutrient",
+      "urea",
+      "DAP",
+      "potash",
+      "NPK"
+    ],
+    "irrigation": [
+      "water",
+      "watering",
+      "neeru",
+      "canal",
+      "drip",
+      "sprinkler",
+      "bore well",
+      "pump"
+    ],
+    "spray": [
+      "spraying",
+      "chemical",
+      "pesticide",
+      "fungicide",
+      "medicine",
+      "treatment",
+      "control"
+    ],
+    "recommendation": [
+      "suggest",
+      "advice",
+      "best",
+      "suitable",
+      "which",
+      "what to grow",
+      "recommend"
+    ],
+    "scheme": [
+      "subsidy",
+      "government",
+      "sarkari",
+      "help",
+      "financial",
+      "loan",
+      "insurance",
+      "PM-KISAN",
+      "PMFBY"
+    ],
+    "organic": [
+      "natural",
+      "chemical free",
+      "jeevamrutha",
+      "panchagavya",
+      "vermicompost",
+      "bio"
+    ],
+    "market": [
+      "sell",
+      "price",
+      "MSP",
+      "mandi",
+      "APMC",
+      "rate",
+      "cost"
+    ],
+    "seed": [
+      "variety",
+      "hybrid",
+      "beeja",
+      "planting material",
+      "seedling",
+      "sapling"
+    ]
+  }
+}

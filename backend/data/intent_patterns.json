@@ -1,0 +1,242 @@
+{
+  "disease": {
+    "keywords": [
+      "disease",
+      "pest",
+      "insect",
+      "yellow",
+      "brown",
+      "spot",
+      "rot",
+      "wilt",
+      "blight",
+      "blast",
+      "curl",
+      "dying",
+      "drying",
+      "hole",
+      "damage",
+      "attack",
+      "infected",
+      "fungus",
+      "virus",
+      "bacteria",
+      "caterpillar",
+      "worm",
+      "borer",
+      "weevil",
+      "beetle",
+      "mite",
+      "fly",
+      "bug",
+      "mealybug",
+      "aphid",
+      "thrip"
+    ],
+    "patterns": [
+      "leaves turning",
+      "spots on",
+      "my .* has",
+      "plant is dying",
+      "crop is affected",
+      "what is wrong",
+      "leaves are",
+      "problem with",
+      "attacked by",
+      "damage in",
+      "holes in",
+      "insects on",
+      "pests in",
+      "white powder",
+      "black spots",
+      "brown patches"
+    ]
+  },
+  "fertilizer": {
+    "keywords": [
+      "fertilizer",
+      "urea",
+      "DAP",
+      "potash",
+      "MOP",
+      "NPK",
+      "manure",
+      "nutrient",
+      "deficiency",
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "zinc",
+      "iron",
+      "dosage",
+      "quantity",
+      "how much",
+      "application"
+    ],
+    "patterns": [
+      "how much .* per acre",
+      "fertilizer for",
+      "when to apply",
+      "which fertilizer",
+      "nutrient deficiency",
+      "dosage of",
+      "rate of",
+      "quantity of"
+    ]
+  },
+  "irrigation": {
+    "keywords": [
+      "water",
+      "irrigation",
+      "drip",
+      "sprinkler",
+      "canal",
+      "bore well",
+      "pump",
+      "watering",
+      "schedule",
+      "frequency",
+      "KRS",
+      "dam",
+      "flood"
+    ],
+    "patterns": [
+      "how often to water",
+      "water requirement",
+      "irrigation schedule",
+      "drip irrigation",
+      "canal water",
+      "when to irrigate",
+      "water management"
+    ]
+  },
+  "recommendation": {
+    "keywords": [
+      "recommend",
+      "suggest",
+      "best",
+      "suitable",
+      "which crop",
+      "what to grow",
+      "should I grow",
+      "can I grow",
+      "profitable",
+      "good crop",
+      "right crop"
+    ],
+    "patterns": [
+      "what .* to grow",
+      "best crop for",
+      "which crop",
+      "should I plant",
+      "suitable crop",
+      "recommend .* crop",
+      "what to sow",
+      "can I grow"
+    ]
+  },
+  "scheme": {
+    "keywords": [
+      "scheme",
+      "subsidy",
+      "government",
+      "PM-KISAN",
+      "insurance",
+      "PMFBY",
+      "loan",
+      "help",
+      "financial",
+      "assistance",
+      "benefit",
+      "apply",
+      "registration",
+      "Krishi Bhagya"
+    ],
+    "patterns": [
+      "government scheme",
+      "how to apply",
+      "subsidy for",
+      "financial help",
+      "crop insurance",
+      "get loan",
+      "PM-KISAN"
+    ]
+  },
+  "organic": {
+    "keywords": [
+      "organic",
+      "natural",
+      "jeevamrutha",
+      "panchagavya",
+      "beejamrutha",
+      "vermicompost",
+      "compost",
+      "bio-fertilizer",
+      "chemical free",
+      "neem",
+      "cow dung",
+      "cow urine"
+    ],
+    "patterns": [
+      "organic farming",
+      "how to make",
+      "natural method",
+      "without chemical",
+      "organic .* for",
+      "prepare organic"
+    ]
+  },
+  "cultivation": {
+    "keywords": [
+      "sowing",
+      "planting",
+      "harvest",
+      "transplant",
+      "spacing",
+      "seed rate",
+      "variety",
+      "season",
+      "nursery",
+      "pruning",
+      "intercrop",
+      "crop calendar",
+      "duration",
+      "when to sow",
+      "when to plant"
+    ],
+    "patterns": [
+      "how to grow",
+      "when to sow",
+      "planting time",
+      "seed rate",
+      "spacing for",
+      "how to cultivate",
+      "best variety",
+      "harvest time",
+      "crop duration"
+    ]
+  },
+  "market": {
+    "keywords": [
+      "price",
+      "sell",
+      "market",
+      "MSP",
+      "APMC",
+      "mandi",
+      "rate",
+      "cost",
+      "income",
+      "profit",
+      "where to sell",
+      "procurement"
+    ],
+    "patterns": [
+      "market price",
+      "where to sell",
+      "MSP for",
+      "current rate",
+      "how much .* per"
+    ]
+  }
+}

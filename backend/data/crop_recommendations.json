@@ -1,0 +1,216 @@
+{
+  "rules": [
+    {
+      "season": "Kharif",
+      "water": "irrigated",
+      "soil": "clay_loam",
+      "crops": [
+        "Paddy",
+        "Maize",
+        "Banana"
+      ],
+      "notes": "Best season for paddy with KRS canal water"
+    },
+    {
+      "season": "Kharif",
+      "water": "irrigated",
+      "soil": "red_sandy_loam",
+      "crops": [
+        "Paddy",
+        "Sugarcane",
+        "Banana",
+        "Turmeric"
+      ],
+      "notes": "Red sandy loam with irrigation supports wide range"
+    },
+    {
+      "season": "Kharif",
+      "water": "rainfed",
+      "soil": "red_sandy_loam",
+      "crops": [
+        "Ragi",
+        "Jowar",
+        "Cowpea",
+        "Horse gram",
+        "Green gram"
+      ],
+      "notes": "Low water requirement millets and pulses ideal"
+    },
+    {
+      "season": "Kharif",
+      "water": "rainfed",
+      "soil": "laterite",
+      "crops": [
+        "Ragi",
+        "Groundnut",
+        "Niger",
+        "Horse gram"
+      ],
+      "notes": "Hardy crops for poor laterite soils"
+    },
+    {
+      "season": "Rabi",
+      "water": "irrigated",
+      "soil": "clay_loam",
+      "crops": [
+        "Paddy (second crop)",
+        "Maize",
+        "Tomato",
+        "Cabbage"
+      ],
+      "notes": "Second paddy crop if canal water available"
+    },
+    {
+      "season": "Rabi",
+      "water": "irrigated",
+      "soil": "red_sandy_loam",
+      "crops": [
+        "Tomato",
+        "Brinjal",
+        "Chili",
+        "Beans",
+        "Maize",
+        "Cabbage"
+      ],
+      "notes": "Vegetables give best returns in Rabi"
+    },
+    {
+      "season": "Rabi",
+      "water": "rainfed",
+      "soil": "red_sandy_loam",
+      "crops": [
+        "Jowar (Rabi)",
+        "Horse gram",
+        "Safflower",
+        "Bengal gram"
+      ],
+      "notes": "Rabi jowar and pulses for rainfed conditions"
+    },
+    {
+      "season": "Summer",
+      "water": "irrigated",
+      "soil": "any",
+      "crops": [
+        "Watermelon",
+        "Cucumber",
+        "Sunflower",
+        "Green gram",
+        "Groundnut"
+      ],
+      "notes": "Short duration crops for summer with limited water"
+    },
+    {
+      "season": "Summer",
+      "water": "rainfed",
+      "soil": "any",
+      "crops": [
+        "Summer ploughing recommended",
+        "Green manure (Sun hemp/Daincha)"
+      ],
+      "notes": "Prepare field for Kharif; green manuring improves soil"
+    },
+    {
+      "season": "Year-round",
+      "water": "irrigated",
+      "soil": "red_sandy_loam",
+      "crops": [
+        "Sugarcane",
+        "Coconut",
+        "Banana",
+        "Mulberry"
+      ],
+      "notes": "Perennial crops need continuous irrigation"
+    },
+    {
+      "season": "Year-round",
+      "water": "irrigated",
+      "soil": "deep_loam",
+      "crops": [
+        "Coconut",
+        "Banana",
+        "Mango",
+        "Sapota"
+      ],
+      "notes": "Deep soils for plantation/fruit crops"
+    }
+  ],
+  "taluk_specific": {
+    "Mandya": {
+      "best_crops": [
+        "Paddy",
+        "Sugarcane",
+        "Banana",
+        "Coconut",
+        "Mulberry"
+      ],
+      "irrigation": "KRS Canal, Hemavathy",
+      "notes": "Most irrigated taluk, suited for water-intensive crops"
+    },
+    "Maddur": {
+      "best_crops": [
+        "Paddy",
+        "Sugarcane",
+        "Coconut",
+        "Mulberry",
+        "Banana"
+      ],
+      "irrigation": "KRS Canal",
+      "notes": "Well-irrigated, similar to Mandya taluk"
+    },
+    "Malavalli": {
+      "best_crops": [
+        "Paddy",
+        "Ragi",
+        "Coconut",
+        "Banana",
+        "Mango"
+      ],
+      "irrigation": "Mixed - canal and rainfed",
+      "notes": "Parts irrigated, parts rainfed. Mango cultivation growing."
+    },
+    "Srirangapatna": {
+      "best_crops": [
+        "Paddy",
+        "Sugarcane",
+        "Banana",
+        "Vegetables",
+        "Mulberry"
+      ],
+      "irrigation": "KRS Canal",
+      "notes": "Close to KRS dam, well-irrigated, vegetable hub"
+    },
+    "Pandavapura": {
+      "best_crops": [
+        "Paddy",
+        "Sugarcane",
+        "Coconut",
+        "Tomato",
+        "Vegetables"
+      ],
+      "irrigation": "KRS Canal",
+      "notes": "Sugar factory nearby, sugarcane dominant"
+    },
+    "Nagamangala": {
+      "best_crops": [
+        "Ragi",
+        "Jowar",
+        "Coconut",
+        "Groundnut",
+        "Horse gram"
+      ],
+      "irrigation": "Mostly rainfed, bore wells",
+      "notes": "Dryland taluk, millets and pulses recommended"
+    },
+    "K.R. Pet": {
+      "best_crops": [
+        "Ragi",
+        "Coconut",
+        "Maize",
+        "Turmeric",
+        "Mulberry"
+      ],
+      "irrigation": "Hemavathy canal (partial), rainfed",
+      "notes": "Mixed irrigation, coconut and ragi dominant"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+# AgriVision - Python Backend Dependencies
+# Install: pip install -r requirements.txt
+
+# Web Framework (Development API Server)
+flask==3.1.1
+flask-cors==5.0.1
+
+# NLP Processing
+nltk==3.9.1
+scikit-learn==1.6.1
+
+# Fuzzy String Matching
+rapidfuzz==3.12.2
+
+# Data Manipulation
+pandas==2.2.3
+
+# Model Serialization
+joblib==1.4.2
+
+# Utilities
+numpy==2.2.5
