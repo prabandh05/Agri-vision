@@ -1,7 +1,6 @@
+# AGRIVISION — MANDYA DISTRICT OFFLINE
+# AGRICULTURAL ADVISORY MOBILE APPLICATION
 
-                    AGRIVISION — MANDYA DISTRICT OFFLINE
-                   AGRICULTURAL ADVISORY MOBILE APPLICATION
-================================================================================
 
 DESCRIPTION
 -----------
